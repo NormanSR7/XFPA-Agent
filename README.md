@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ### Run the agent:
 ```bash
 python langchain_sql_agent.py
-
+```
 ### Environment variables
 To run this project, create a '.env' file in the root folder and add the following:
 OPENAI_API_KEY=your_api_key_here
