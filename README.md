@@ -42,7 +42,7 @@ cd XFPA-Agent
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 ## Usage
 
 ### Run the agent:
@@ -52,6 +52,7 @@ python langchain_sql_agent.py
 ### Environment variables
 To run this project, create a '.env' file in the root folder and add the following:
 OPENAI_API_KEY=your_api_key_here
+```
 *This file is excluded from version control via `.gitignore` for security.*
 
 ## Learning Journal
